@@ -1,7 +1,27 @@
-img {width: 50%;;margin: auto;padding:15px;display: block;border-radius: 50%}
+body {
+    font: normal 25px Arial;
+}
 
-.fa  {font-size:25px}
+
+h1
+{
+    font: normal 50px Muli;
+}
+
+h3
+{
+    font: normal 30px Muli;
+}
+.placeholder
+
+{
+ font: normal 26px Muli;
+}
 
 
-.title {background-color:  #3d3d5c; color:white}
+.contact {
+    font: normal 25px Bree Serif;
+}
+
+
 
