@@ -12,12 +12,12 @@ const sectionOneObserver = new IntersectionObserver(function(
     entries.forEach(entry => {
             if (entry.isIntersecting) {
                 header.classList.add('active');
-                btnss.classList.remove('rouge');
+                btnss.classList.remove('bleu');
 
 
             } else {
                 header.classList.remove('active');
-                btnss.classList.add('rouge');
+                btnss.classList.add('bleu');
 
             }
 
@@ -36,10 +36,10 @@ const sectionTwoObserver = new IntersectionObserver(function(
             if (entry.isIntersecting) {
 
                 btnssdata.classList.add('rouge');
-                btnss.classList.remove('rouge')
+                btnss.classList.remove('bleu')
             } else {
                 btnssdata.classList.remove('rouge');
-                btnss.classList.add('rouge')
+                btnss.classList.add('bleu')
             }
 
         }
