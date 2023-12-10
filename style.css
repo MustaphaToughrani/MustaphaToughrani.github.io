@@ -1,27 +1,26 @@
 html {
     scroll-behavior: smooth;
     background-color: #1a2832;
-    position: relative
+    position: relative;
 }
 
 body {
-    font: normal 25px Arial;
+    font: normal 20px Arial;
 }
 
-.bar_top {
+.bar_top, .navbar, .active {
     background-color: #4d4d4dff;
     color: white;
-    font: normal 18px Muli;
 }
 
 h1 {
-    font: normal 40px Roboto;
-    color: #373748ff
+    font: normal 40px Arial;
+    color: #373748ff;
 }
 
-h3 {
-    font: normal 30px Roboto;
-    color: #373748ff
+h3, .contact {
+    font: normal 30px Arial;
+    color: #373748ff;
 }
 
 .placeholder {
@@ -29,22 +28,7 @@ h3 {
 }
 
 .contact {
-    font-family: Kalam;
-    color: #373748ff;
-}
-
-.navbar {
-    background-color: #4d4d4dff;
-    color: white;
-    position: sticky;
-    top: 0;
-    font-family: Muli;
-}
-
-.active {
-    background-color: grey;
-    color: white;
-    top: 0
+    font-family: Calibri;
 }
 
 .presentation {
@@ -56,55 +40,51 @@ img {
     width: 81%;
 }
 
-.contactbox {
+.contactbox, .contentframe {
     background-color: white;
     color: black;
+}
+
+.contentframe {
+    display: flex;
+    flex-direction: column;
 }
 
 .rouge {
     background-color: #7f0d34ff;
-    color: white
-}
-
-.contentframe {
-    background-color: white;
-    color: black;
-    ;
+    color: white;
 }
 
 .line {
     height: 20px;
-    background-color: grey
+    background-color: grey;
 }
 
-.contentframe2 {
-    background-color: #c44b76ff;
-    color: white;
-    width: 20%
+.contentframe2, .dataframe {
+    width: 20%;
 }
 
 ul {
     list-style: none;
     margin: 0;
-    padding: 5px
+    padding: 5px;
 }
 
 .linebet {
-    height: 1px
+    height: 1px;
 }
 
 .icon {
     object-fit: contain;
-    width: 80%
+    width: 80%;
 }
 
 .bleu {
     background-color: #275682ff;
-    color: white
+    color: white;
 }
 
-.dataframe {
-    background-color: #6c94c4ff;
-    color: white;
-    width: 20%
+h5 {
+    font: normal 15px Arial;
+    color: #373748ff;
 }
